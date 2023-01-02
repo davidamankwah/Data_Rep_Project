@@ -7,6 +7,42 @@
   pointer-events: none;
 }
 
+/* todo app background colouring */
+body {
+  background: linear-gradient(
+    90deg,
+    rgb(116, 101, 214) 0%,
+    rgb(24, 183, 114) 70%
+  );
+}
+
+
+/* images syles */
+.center{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+/* paragraph styles */
+p{
+  color: #282c34;
+}
+
+/* headings styles */
+h1,h3 {
+  margin: 32px 0;
+  color: paleturquoise;
+  font-size: 24px;
+}
+
+/* form labels styles */
+label{
+  margin: 32px 0;
+  color: #fff;
+  font-size: 24px;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
